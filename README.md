@@ -20,7 +20,7 @@
 * TODO 12 create a method getItems to Shop
 * TODO 13 create a method getItemsOfCategory(category) to Shop
 * TODO 14 create a method getItem(id) to Shop
-* TODO: 15 add specific fields to PhysicalShop
+* TODO 15 add specific fields to PhysicalShop
     * location of type string
     * surface of type number
 * TODO: 16 add specific fields to WebShop
