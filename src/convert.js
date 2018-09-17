@@ -1,8 +1,8 @@
-// TODO 11 convert these "classes" to it's own ES6 classes in separate files
-// TODO 12 use all possible ES6 features you can think of
-// TODO 13 create separate test files for each class and test the available functions
-// TODO 14 think of some new functions/features to implement in these classes: inbox.clearAll(), person.removeInbox(inboxId), inbox.updateMessage(newMessage), inbox.archivedMessages, ...
-// TODO 15 create tests for those new functions
+// TODO: 11 convert these "classes" to it's own ES6 classes in separate files
+// TODO: 12 use all possible ES6 features you can think of
+// TODO: 13 create separate test files for each class and test the available functions
+// TODO: 14 think of some new functions/features to implement in these classes: inbox.clearAll(), person.removeInbox(inboxId), inbox.updateMessage(newMessage), inbox.archivedMessages, ...
+// TODO: 15 create tests for those new functions
 //
 
 var Inbox = function(id, p1, p2) {

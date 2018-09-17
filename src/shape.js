@@ -12,7 +12,7 @@
     string getColor() get the color and use the new Getter feature of ES6
     void changeColor set the color and use the new Setter feature of ES6
  */
-// TODO 6 write tests (Shape and Rectangle) for the methods you just wrote and validate the new position
+// TODO: 6 write tests (Shape and Rectangle) for the methods you just wrote and validate the new position
 
 // TODO 7 add properties 'width' and 'height' to the Rectangle class
 
@@ -23,6 +23,26 @@
     void shrink(minusWidth minusHeight) shrink the Rectangle
     boolean isSquare() tells if the rectangle is a square
  */
-// TODO 9 think of 3 other types of shapes and extend from the correct super class
+// TODO: 9 think of 3 other types of shapes and extend from the correct super class
 
-// TODO 10 think of new methods you can add to the shapes we created (at least 2)
+// TODO: 10 think of new methods you can add to the shapes we created (at least 2),
+
+export default class Shape { 
+    constructor (color, x, y) { 
+        this.color = color; 
+        this.move(x, y); 
+    } 
+    
+    move (x, y) { 
+        this.x = x;
+        this.y = y; 
+    }
+
+    getColor() {
+        return this.color;
+    }
+
+    changeColor(color){
+        this.color = color;
+    }
+}
